@@ -12,7 +12,7 @@ NovaTrack is a web-based application designed to allow passengers to report and 
 
 ## Demo App Link:
 You can view and interact with the live demo of NovaTrack here:
-[**NovaTrack - Live Demo**](#)  
+[**NovaTrack - Live Demo**](https://aparna2006.github.io/NOVATRACK_APP/)  
 (Note: Replace `#` with your live app link once deployed)
 
 ## Tech Stack:
