@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NovaTrack - Train Safety & Complaints</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="NovaTrack Logo">
+            <h1>NovaTrack</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#complaints">Submit Complaints</a></li>
+                <li><a href="#track">Track Complaints</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="intro-section">
+        <h2>Welcome to NovaTrack</h2>
+        <p>Submit and track complaints related to women's safety, health safety, and overcrowding on trains.</p>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <h2>Our Features</h2>
+        <div class="feature">
+            <img src="images/feature1.png" alt="Women Safety">
+            <h3>Women Safety</h3>
+            <p>Report and track safety incidents on trains.</p>
+        </div>
+        <div class="feature">
+            <img src="images/feature2.png" alt="Health Safety">
+            <h3>Health Safety</h3>
+            <p>Report health-related issues and hazards in trains.</p>
+        </div>
+        <div class="feature">
+            <img src="images/feature3.png" alt="Overcrowding">
+            <h3>Overcrowding</h3>
+            <p>Report overcrowding incidents and track train occupancy levels.</p>
+        </div>
+    </section>
+
+    <!-- Submit Complaint Section -->
+    <section id="complaints" class="complaints-section">
+        <h2>Submit a Complaint</h2>
+        <form id="complaint-form">
+            <label for="complaint-type">Complaint Type:</label>
+            <select id="complaint-type">
+                <option value="women-safety">Women Safety</option>
+                <option value="health-safety">Health Safety</option>
+                <option value="overcrowding">Overcrowding</option>
+            </select>
+            <br>
+            <label for="description">Complaint Description:</label>
+            <textarea id="description" placeholder="Describe your complaint..."></textarea>
+            <br>
+            <button type="submit">Submit Complaint</button>
+        </form>
+        <div id="confirmation-message"></div>
+    </section>
+
+    <!-- Track Complaints Section -->
+    <section id="track" class="track-section">
+        <h2>Track Your Complaints</h2>
+        <form id="track-form">
+            <label for="complaint-id">Enter Complaint ID:</label>
+            <input type="text" id="complaint-id" placeholder="Your Complaint ID">
+            <button type="submit">Track Complaint</button>
+        </form>
+        <div id="track-result"></div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Your Name">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Your Email">
+            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Your message..."></textarea>
+            <br>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 NovaTrack. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
